@@ -2,36 +2,36 @@
   "iphone6s": {
     "deviceName": "iPhone 6s",
     "platformName": "iOS",
-    "platformVersion": "11.4",
+    "platformVersion": "12.0",
     "automationName": "XCuiTest",
-    "udid": "B9072B66-ABFA-47C2-B0F7-55D40EF4D5F5",
+    "udid": "3254DC8A-6DCB-4F2E-9045-996ED076EAB7",
     "reset": true,
     "app": "WordPress.zip"
   },
   "iphone6": {
     "deviceName": "iPhone 6",
     "platformName": "iOS",
-    "platformVersion": "11.4",
+    "platformVersion": "12.0",
     "automationName": "XCuiTest",
-    "udid": "B9072B66-ABFA-47C2-B0F7-55D40EF4D5F6",
+    "udid": "137C60AA-A6E0-4195-A0D2-DB2F51804CAF",
     "reset": true,
     "app": "WordPress.zip"
   },
   "ipadAir": {
     "deviceName": "iPad Air",
     "platformName": "iOS",
-    "platformVersion": "11.4",
+    "platformVersion": "12.0",
     "automationName": "XCuiTest",
-    "udid": "B9072B66-ABFA-47C2-B0F7-55D40EF4D5F7",
+    "udid": "0410514E-0545-4C01-A051-7A8AD761D81A",
     "reset": true,
     "app": "WordPress.zip"
   },
   "ipadAir2": {
     "deviceName": "iPad Air2",
     "platformName": "iOS",
-    "platformVersion": "11.4",
+    "platformVersion": "12.0",
     "automationName": "XCuiTest",
-    "udid": "B9072B66-ABFA-47C2-B0F7-55D40EF4D5F8",
+    "udid": "AEF620BB-BB73-423D-BDD6-3566A70B3CE5",
     "reset": true,
     "app": "WordPress.zip"
   }

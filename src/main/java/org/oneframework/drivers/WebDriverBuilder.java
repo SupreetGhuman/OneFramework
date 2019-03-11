@@ -3,9 +3,12 @@ package org.oneframework.drivers;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.oneframework.config.DeviceConfig;
 import org.oneframework.enums.PlatformName;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.util.concurrent.TimeUnit;
 
 public class WebDriverBuilder extends DeviceConfig {
 
@@ -20,6 +23,8 @@ public class WebDriverBuilder extends DeviceConfig {
             driver = new FirefoxDriver();
         }
         setExecutionPlatform(platformName);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().window().setSize(new Dimension(1024, 768));
         return driver;
     }
 

@@ -20,7 +20,6 @@ public class BaseTest {
     @BeforeTest
     public void startAppiumServer(String platformType, @Optional String platformName) throws IOException {
         if (platformType.equalsIgnoreCase(PlatformType.MOBILE.toString())) {
-            killExistingAppiumProcess();
             if (AppiumServer.appium == null || !AppiumServer.appium.isRunning()) {
                 AppiumServer.start();
                 logMessage("Appium server has been started");
@@ -77,6 +76,11 @@ public class BaseTest {
     private void killExistingAppiumProcess() throws IOException {
         Runtime.getRuntime().exec("killall node");
         logMessage("Killing existing appium process");
+    }
+
+    @AfterSuite
+    public void endSuite() throws IOException {
+        killExistingAppiumProcess();
     }
 
 }

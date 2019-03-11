@@ -2,7 +2,7 @@
   "pixel": {
     "deviceName": "emulator-5554",
     "platformName": "Android",
-    "platformVersion": "8.1",
+    "platformVersion": "9",
     "automationName": "UIAutomator2",
     "packageName": "org.wordpress.android",
     "activity": "org.wordpress.android.ui.WPLaunchActivity",
@@ -12,7 +12,7 @@
   "nexus": {
     "deviceName": "emulator-5554",
     "platformName": "Android",
-    "platformVersion": "8.1",
+    "platformVersion": "9",
     "automationName": "UIAutomator2",
     "packageName": "org.wordpress.android",
     "activity": "org.wordpress.android.ui.WPLaunchActivity",
